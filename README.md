@@ -6,7 +6,7 @@ Lab: FCSG \
 Group : 1 
 
 ### Group Members: 
-1. Goh Jun Keat ([@JKniaaa]((https://github.com/JKniaaa)))
+1. Goh Jun Keat ([@JKniaaa](https://github.com/JKniaaa))
 2. Celeste Ho Shir Chee 
 3. He QiXin 
 
