@@ -48,6 +48,7 @@ We did the followig to clean our dataset:
 
 **Note: Outliers were not removed yet as the removal of outliers at this stage would cause inaccuracies during Exploratory Data Analysis.**
 
+
 ### 2. Exploratory Data Analysis
 We explored our dataset to answer our problem statements. We were able to obtain some insights other than those related to the main problem.
 
@@ -77,6 +78,7 @@ For EDA Part 2:
         i. Valid predictors were `experience_level`, `remote_ratio` and `company size`.
         ii. Used swarmplot to visualise relationship with `salary_in_usd`.
         iii. Group the data of predictors based on corresponding value of `above_median`.
+
 
 ### 3. Data Modelling
 We now try to find the best model to predict whether employee salary (USD) is `above_median` using predictors `experience_level`, `remote_ratio` and `company size`.
