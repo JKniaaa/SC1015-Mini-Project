@@ -30,7 +30,7 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
 1. [Data Preparation and Cleaning](#1-Data-Preparation-and-Cleaning)
 2. [Exploratory Data Analysis](#2-Exploratory-Data-Analysis)
 3. [Data Modelling](#3-Data-Modelling):
-   - [Binary Classification](#1-Binary-Classification)
+   - Binary Classification
    - Placeholder
    - Placeholder
 4. [Data Driven Insights and Conclusion](#4-Data-Driven-Insights-and-Conclusion)
