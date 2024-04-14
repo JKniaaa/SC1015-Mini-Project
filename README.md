@@ -53,23 +53,17 @@ We did the followig to clean our dataset:
 We explored our dataset to answer our problem statements. We were able to obtain some insights other than those related to the main problem.
 
 We found the following for EDA Part 1:
-1. Distribution of `salary_in_usd` based on `job_title`: \
-    a. Used boxplot to visualise the distribution of salary (USD) for each Data Science related profession. 
-2. The most popular `job_title` and `job_category` of each `work_year`. \
-    a. Used catplot to visualise number of employees of each `job_title` from 2020 to 2022. \
-    b. Used catplot to visualise number of employees of each `job_category` from 2020 to 2022. 
-3. The top 10 most popular data science related `company_location`. \
-    a. Used barplot to visualise number of companies in the 10 locations with the most Data Science related companies. 
-4. The trend of job opportunities by `work_year` in data science field. \
-    a. Used barplot to visualise the trend of work opportunities in Data Scinec field from 2020 to 2022.
+1. Used boxplot to visualise the distribution of `salary_in_usd` based on `job_title`: 
+2. Used catplot to visualise the most popular `job_title` and `job_category` of each `work_year`. 
+3. Used barplot to visualise The top 10 most popular data science related `company_location`. \
+4. Used barplot to visualise The trend of job opportunities by `work_year` in data science field. \
 
 **We now remove the outliers to balance the distribution of our dataset better. `10` rows of data were dropped from the dataset.**
 
 For EDA Part 2:
 1. Used catplot to visualise distribution of `above_median`.
-2. Found the average `salary_in_usd` by `work_year`. \
-    a. Used lineplot to visualise trend of salary (USD) from year 2020 to 2022.
-3. Visualised distribution of potential predictors for `above_median`. We did so in 2 steps: \
+2. Used lineplot to visualise the trend of the average `salary_in_usd` by `work_year`. 
+3. Visualised distribution of potential predictors for `above_median` in 2 steps: \
     a. Find the distribution of predictors against `salary_in_usd`: \
         &nbsp;&nbsp;&nbsp;&nbsp; i. Potential predictors are `company_location`, `job_title`, `job_category`, `experience_level`, `employment_type`, `remote_ratio` and `company size`. \
         &nbsp;&nbsp;&nbsp;&nbsp; ii. Used catplot and jointplot to visualise distributions. \
