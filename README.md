@@ -48,7 +48,7 @@ We did the followig to clean our dataset:
 
 **Note: Outliers were not removed yet as the removal of outliers at this stage would cause inaccuracies during Exploratory Data Analysis.**
 
-
+---
 ### 2. Exploratory Data Analysis
 We explored our dataset to answer our problem statements. We were able to obtain some insights other than those related to the main problem.
 
@@ -79,7 +79,7 @@ For EDA Part 2:
         ii. Used swarmplot to visualise relationship with `salary_in_usd`.
         iii. Group the data of predictors based on corresponding value of `above_median`.
 
-
+---
 ### 3. Data Modelling
 We now try to find the best model to predict whether employee salary (USD) is `above_median` using predictors `experience_level`, `remote_ratio` and `company size`.
 
@@ -110,6 +110,31 @@ A total of 3 models were attempted:
 **3. Binary Classification:**
 
 
+
+
+---
+### 4. Data Driven Insights and Conclusion
+
+**Conclusion:**
+
+
+**Data Driven Insights:**
+- Different Data Science jobs seem to have different ranges of salary (USD).
+- The most popular Data Science profession in 2020 and 2021 was `Data Scientist`, while the most popular Data Science profession in 2022 was `Data Engineer`.
+- The most popular Data Science job category in 2020 and 2021 was `Data Scientist`, while the most popular Data Science job category in 2022 was `Data Analyst`.
+- Most of the Data Science related companies are found in the USA.
+- There is an increasing number of job opportuinities in the Data Science field from 2020 to 2022.
+- There are more employees receiving below median salaries (USD) than those receiving above median salaries (USD).
+- The increase of the average salary (USD) of Data Science professionals between 2021 to 2022 is far greater than that of between 2020 and 2021.
+- Data Science professionals are becoming **increasingly popular** and **sought after by companies** as time passes.
+
+**What We Learned from this Project:**
+- To visualise other useful and interesting insights from the dataset and make inferences from them.
+- Handling categorical variables using one-hot encoding for data modelling purposes.
+- Ways to observe and justify the most suitable model for modelling based on accuracy.
+
+---
+### 5. References
 
 
 
