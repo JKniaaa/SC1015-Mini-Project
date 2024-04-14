@@ -71,9 +71,9 @@ For EDA Part 2:
     a. Used lineplot to visualise trend of salary (USD) from year 2020 to 2022.
 3. Visualised distribution of potential predictors for `above_median`. We did so in 2 steps: \
     a. Find the distribution of predictors against `salary_in_usd`: \
-        &nbsp;i. Potential predictors are `company_location`, `job_title`, `job_category`, `experience_level`, `employment_type`, `remote_ratio` and `company size`. \
+        &nbsp;&nbsp;&nbsp;i. Potential predictors are `company_location`, `job_title`, `job_category`, `experience_level`, `employment_type`, `remote_ratio` and `company size`. \
         &nbsp;ii. Used catplot and jointplot to visualise distributions. \
-        &nbsp;iii. Found that `job_title`, `job_category`, `company_location` and `employment_type` were not suitable predictors. 
+        &nbsp;iii. Found that `job_title`, `job_category`, `company_location` and `employment_type` were not suitable predictors. \
     b. Find relationship of **valid predictors** with `salary_in_usd` and `above_median`: \
         &nbsp;i. Valid predictors were `experience_level`, `remote_ratio` and `company size`. \
         &nbsp;ii. Used swarmplot to visualise relationship with `salary_in_usd`. \
