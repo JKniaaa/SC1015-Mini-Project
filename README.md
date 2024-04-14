@@ -41,10 +41,10 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
 We cleaned the dataset to help us analyse the data better during Exploratory Data Analysis and Data Modelling.
 
 We did the followig to clean our dataset:
-1. Check dataset for `NULL`, `NaN` and repeated values: No such values were found.
-2. Remove unnecessary data: Columns `id`, `salary`, `salary_currency` and `employee_residence` were dropped for better presentation of data.
-3. Rename values in data: Values in columns `experience_level`, `employment_type`, `remote_ratio` and `company_size` were renamed for better understanding of data values.
-4. Add new columns: Columns `job_category` and `above_median` added for analysis and modelling purposes. `above_median` is the responding variable for data modelling.
+1. **Check dataset for `NULL`, `NaN` and repeated values:** No such values were found.
+2. **Remove unnecessary data:** Columns `id`, `salary`, `salary_currency` and `employee_residence` were dropped for better presentation of data.
+3. **Rename values in data:** Values in columns `experience_level`, `employment_type`, `remote_ratio` and `company_size` were renamed for better understanding of data values.
+4. **Add new columns:** Columns `job_category` and `above_median` added for analysis and modelling purposes. `above_median` is the responding variable for data modelling.
 
 **Note: Outliers were not removed yet as the removal of outliers at this stage would cause inaccuracies during Exploratory Data Analysis.**
 
@@ -52,15 +52,15 @@ We did the followig to clean our dataset:
 ### 2. Exploratory Data Analysis
 We explored our dataset to answer our problem statements. We were able to obtain some insights other than those related to the main problem.
 
-We found the following for EDA Part 1:
+We found the following for **EDA Part 1:**
 1. Used boxplot to visualise the distribution of `salary_in_usd` based on `job_title`: 
 2. Used catplot to visualise the most popular `job_title` and `job_category` of each `work_year`. 
-3. Used barplot to visualise The top 10 most popular data science related `company_location`. \
-4. Used barplot to visualise The trend of job opportunities by `work_year` in data science field. \
+3. Used barplot to visualise The top 10 most popular data science related `company_location`. 
+4. Used barplot to visualise The trend of job opportunities by `work_year` in data science field. 
 
 **We now remove the outliers to balance the distribution of our dataset better. `10` rows of data were dropped from the dataset.**
 
-For EDA Part 2:
+For **EDA Part 2:**
 1. Used catplot to visualise distribution of `above_median`.
 2. Used lineplot to visualise the trend of the average `salary_in_usd` by `work_year`. 
 3. Visualised distribution of potential predictors for `above_median` in 2 steps: \
@@ -77,11 +77,11 @@ For EDA Part 2:
 ### 3. Data Modelling
 We now try to find the best model to predict whether employee salary (USD) is `above_median` using predictors `experience_level`, `remote_ratio` and `company size`.
 
-The following was done before modelling:
-1. Created a new dataframe to store the response variable and the predictors.
-2. Encoded the data in the dataframe appropriately.
+The following was done **before modelling:**
+1. Created a **new dataframe** to store the response variable and the predictors.
+2. **Encoded the data** in the dataframe appropriately.
 
-A total of 3 models were attempted:
+Models attempted:
 **1. Binary Classification:**
 
     a. The dataset was split into Train and Test by ratio of 7:3.
