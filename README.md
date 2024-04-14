@@ -81,7 +81,7 @@ The following was done **before modelling:**
 1. Created a **new dataframe** to store the response variable and the predictors.
 2. **Encoded the data** in the dataframe appropriately.
 
-Models attempted:
+Models attempted: \
 **1. Binary Classification:**
 
     a. The dataset was split into Train and Test by ratio of 7:3.
