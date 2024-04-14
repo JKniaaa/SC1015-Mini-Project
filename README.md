@@ -54,12 +54,12 @@ We explored our dataset to answer our problem statements. We were able to obtain
 
 We found the following for EDA Part 1:
 1. Distribution of `salary_in_usd` based on `job_title`: \
-    a. Used boxplot to visualise the distribution of salary (USD) for each Data Science related profession. \
+    a. Used boxplot to visualise the distribution of salary (USD) for each Data Science related profession. 
 2. The most popular `job_title` and `job_category` of each `work_year`. \
     a. Used catplot to visualise number of employees of each `job_title` from 2020 to 2022. \
-    b. Used catplot to visualise number of employees of each `job_category` from 2020 to 2022. \
+    b. Used catplot to visualise number of employees of each `job_category` from 2020 to 2022. 
 3. The top 10 most popular data science related `company_location`. \
-    a. Used barplot to visualise number of companies in the 10 locations with the most Data Science related companies. \
+    a. Used barplot to visualise number of companies in the 10 locations with the most Data Science related companies. 
 4. The trend of job opportunities by `work_year` in data science field. \
     a. Used barplot to visualise the trend of work opportunities in Data Scinec field from 2020 to 2022.
 
@@ -71,13 +71,13 @@ For EDA Part 2:
     a. Used lineplot to visualise trend of salary (USD) from year 2020 to 2022.
 3. Visualised distribution of potential predictors for `above_median`. We did so in 2 steps: \
     a. Find the distribution of predictors against `salary_in_usd`: \
-        i. Potential predictors are `company_location`, `job_title`, `job_category`, `experience_level`, `employment_type`, `remote_ratio` and `company size`. \
-        ii. Used catplot and jointplot to visualise distributions. \
-        iii. Found that `job_title`, `job_category`, `company_location` and `employment_type` were not suitable predictors. \
+        &nbsp;i. Potential predictors are `company_location`, `job_title`, `job_category`, `experience_level`, `employment_type`, `remote_ratio` and `company size`. \
+        &nbsp;ii. Used catplot and jointplot to visualise distributions. \
+        &nbsp;iii. Found that `job_title`, `job_category`, `company_location` and `employment_type` were not suitable predictors. 
     b. Find relationship of **valid predictors** with `salary_in_usd` and `above_median`: \
-        i. Valid predictors were `experience_level`, `remote_ratio` and `company size`. \
-        ii. Used swarmplot to visualise relationship with `salary_in_usd`. \
-        iii. Group the data of predictors based on corresponding value of `above_median`. \
+        &nbsp;i. Valid predictors were `experience_level`, `remote_ratio` and `company size`. \
+        &nbsp;ii. Used swarmplot to visualise relationship with `salary_in_usd`. \
+        &nbsp;iii. Group the data of predictors based on corresponding value of `above_median`. 
 
 ---
 ### 3. Data Modelling
