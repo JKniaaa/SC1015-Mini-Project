@@ -14,6 +14,8 @@ Group : 1
 ### Project Description:
 For our Introduction to Data Science and Artificial Intelligence module (SC1015) Mini Project, we performed analysis on the Data Science Salaries [dataset](https://www.kaggle.com/datasets/zain280/data-science-salaries) from Kaggle.
 
+**Dataset:** [Data Science Salaries](https://www.kaggle.com/datasets/zain280/data-science-salaries)
+
 ---
 ### Problem Statements:
 **Main problem: Are most Data Science professionals getting paid above the median salary?**
@@ -144,6 +146,10 @@ Models Attempted:
 
 ---
 ### 5. References
+1. [https://stackoverflow.com/questions/57165247/rename-column-values-using-pandas-dataframe](https://stackoverflow.com/questions/57165247/rename-column-values-using-pandas-dataframe)
+2. [https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/](https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/)
+3. [https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/](https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/)
+
 
 
 
