@@ -115,6 +115,11 @@ Models Attempted:
 ### 4. Data Driven Insights and Conclusion
 
 **Conclusion:**
+- Binary Classification suggests that valid predictors can predict whether salary (USD) of respondent is above median​ salary (USD). However, the model is not highly accurate.
+- Random Forest 
+- Logistic Regression 
+
+-XXX is the best model to predict whether salary (USD) of Data Science professionals are above the median salary (USD).​
 
 
 **Data Driven Insights:**
