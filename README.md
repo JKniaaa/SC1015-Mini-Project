@@ -33,8 +33,8 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
 2. [Exploratory Data Analysis](#2-Exploratory-Data-Analysis)
 3. [Data Modelling](#3-Data-Modelling):
    - Binary Classification
-   - Placeholder
-   - Placeholder
+   - Random Forest
+   - Logistic Regression
 4. [Data Driven Insights and Conclusion](#4-Data-Driven-Insights-and-Conclusion)
 5. [References](#5-References)
 
