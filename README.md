@@ -94,14 +94,14 @@ Models Attempted:
     c. Upsampling was done to increase accuracy of prediction.
     
     c. Analysis of Train data:
-      - Accuracy: 77.88%
-      - False Positive Rate (FPR): 16.59%
-      - False Negative Rate (FNR): 27.27%
+      - Accuracy: 77.65%
+      - False Positive Rate (FPR): 14.69%
+      - False Negative Rate (FNR): 29.91%
       
     d. Analysis of Test data:
-      - Accuracy: 75.96%
-      - False Positive Rate (FPR): 19.19%
-      - False Negative Rate (FNR): 29.76%
+      - Accuracy: 73.77%
+      - False Positive Rate (FPR): 22.58%
+      - False Negative Rate (FNR): 30.00%
 
 **2. Random Forest:**
 
