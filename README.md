@@ -101,6 +101,19 @@ Models Attempted:
 
 **2. Binary Classification:**
 
+    a. The dataset was split into Train and Test by ratio of 7:3.
+    
+    b. Binary Tree model was created with max depth of 4.
+    
+    c. Analysis of Train data:
+      - Accuracy: 77.32%
+      - False Positive Rate (FPR): 10.58%
+      - False Negative Rate (FNR): 35.15%
+      
+    d. Analysis of Test data:
+      - Accuracy: 80.68%
+      - False Positive Rate (FPR): 14.12%
+      - False Negative Rate (FNR): 24.18%
 
 **3. Binary Classification:**
 
