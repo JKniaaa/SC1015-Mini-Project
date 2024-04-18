@@ -119,7 +119,7 @@ Models Attempted:
 - Random Forest 
 - Logistic Regression 
 
--XXX is the best model to predict whether salary (USD) of Data Science professionals are above the median salary (USD).​
+**- XXX is the best model to predict whether salary (USD) of Data Science professionals are above the median salary (USD).​**
 
 
 **Data Driven Insights:**
