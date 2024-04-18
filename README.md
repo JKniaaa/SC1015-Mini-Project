@@ -90,32 +90,21 @@ Models Attempted:
     a. The dataset was split into Train and Test by ratio of 7:3.
     
     b. Binary Tree model was created with max depth of 4.
+
+    c. Upsampling was done to increase accuracy of prediction.
     
     c. Analysis of Train data:
-      - Accuracy: 76.50%
-      - False Positive Rate (FPR): 16.19%
-      - False Negative Rate (FNR): 30.92%
+      - Accuracy: 77.88%
+      - False Positive Rate (FPR): 16.59%
+      - False Negative Rate (FNR): 27.27%
       
     d. Analysis of Test data:
-      - Accuracy: 75.00%
-      - False Positive Rate (FPR): 21.28%
-      - False Negative Rate (FNR): 29.07%
+      - Accuracy: 75.96%
+      - False Positive Rate (FPR): 19.19%
+      - False Negative Rate (FNR): 29.76%
 
-**2. Binary Classification:**
+**2. Random Forest:**
 
-    a. The dataset was split into Train and Test by ratio of 7:3.
-    
-    b. Binary Tree model was created with max depth of 4.
-    
-    c. Analysis of Train data:
-      - Accuracy: 77.32%
-      - False Positive Rate (FPR): 10.58%
-      - False Negative Rate (FNR): 35.15%
-      
-    d. Analysis of Test data:
-      - Accuracy: 80.68%
-      - False Positive Rate (FPR): 14.12%
-      - False Negative Rate (FNR): 24.18%
 
 **3. Binary Classification:**
 
