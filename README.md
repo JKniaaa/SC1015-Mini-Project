@@ -64,7 +64,7 @@ For **EDA Part 2:**
 1. Used catplot to visualise distribution of `above_median`.
 2. Used lineplot to visualise the trend of the average `salary_in_usd` by `work_year`. 
 3. Visualised distribution of potential predictors for `above_median` in 2 steps: \
-    a. Find the distribution of **potential predictors:**
+    a. Find the distribution of **potential predictors:** \
         &nbsp;&nbsp;&nbsp;&nbsp; i. Potential predictors are `company_location`, `job_title`, `job_category`, `experience_level`, `employment_type`, `remote_ratio` and `company size`. \
         &nbsp;&nbsp;&nbsp;&nbsp; ii. Used catplot and jointplot to visualise distributions. \
         &nbsp;&nbsp;&nbsp;&nbsp; iii. Found that `job_title`, `job_category`, `company_location` and `employment_type` were not suitable predictors. \
