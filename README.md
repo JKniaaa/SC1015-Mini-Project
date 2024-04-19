@@ -185,9 +185,9 @@ Models Attempted:
 - The most popular Data Science profession in `2020` and `2021` was `Data Scientist`, while the most popular Data Science profession in `2022` was `Data Engineer`.
 - The most popular Data Science job category in `2020` and `2021` was `Data Scientist`, while the most popular Data Science job category in `2022` was `Data Analyst`.
 - Most of the Data Science related companies are found in the `USA`.
-- There is an increasing number of job opportuinities in the Data Science field from 2020 to 2022.
+- There is an **increasing number of job opportuinities** in the Data Science field from `2020` to `2022`.
 - There are more employees receiving below median salaries (USD) than those receiving above median salaries (USD).
-- The average salary (USD) of Data Science professionals increases far more between `2021` and `2022` compared to between `2020` and `2021`.
+- The **average salary (USD)** of Data Science professionals is **increasing by year**. However, it increases far more between `2021` and `2022` compared to between `2020` and `2021`.
 - Data Science professionals are becoming **increasingly popular** and **sought after by companies** as time passes.
 
 
