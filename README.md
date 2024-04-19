@@ -45,7 +45,7 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
 ### Problem Statements:
 **Main problem: Why are some Data Science professionals getting paid more than others?**
 
-*Potential Insights that can be obtained:*
+*Other potential Insights that can be obtained:*
 1. Distribution of salaries (USD) of Data Science professionals.
 2. The most popular Data Science Job and Job Category.
 3. The most popular destinations to work for Data Science professionals.
