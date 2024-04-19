@@ -151,7 +151,7 @@ Models Attempted:
 
     a. The dataset was split into Train and Test by ratio of 8:2.
 
-    b. After training, the code uses the trained model to make predictions on the testinf data using `predict()`.
+    b. After training, the code uses the trained model to make predictions on the testing data using `predict()`.
 
     c. Analysis of Train data:
       - Accuracy: 73.66%
