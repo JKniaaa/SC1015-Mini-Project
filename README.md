@@ -60,7 +60,7 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
    - Binary Classification
    - Random Forest
    - Logistic Regression
-4. [Data Driven Insights and Conclusion](#4-Data-Driven-Insights-and-Conclusion)
+4. [Data-Driven Insights and Conclusion](#4-Data-Driven-Insights-and-Conclusion)
 5. [References](#5-References)
 
 ---
@@ -170,7 +170,7 @@ Models Attempted:
 
 
 ---
-### 4. Data Driven Insights and Conclusion
+### 4. Data-Driven Insights and Conclusion
 
 **Conclusion:**
 - Binary Classification suggests that valid predictors can predict whether salary (USD) of respondent is above median​ salary (USD). However, the model is not highly accurate and requires refining.
@@ -180,7 +180,7 @@ Models Attempted:
 - `Random Forest` model is the **more suitable model** to predict whether the salary (USD) of a Data Science Professional is `above median` salary (USD) based on `experience_level`, `remote_ratio` and `company_size` as the model has **higher accuracy**.
 
 
-**Data Driven Insights:**
+**Data-Driven Insights:**
 - Different Data Science jobs seem to have different ranges of salary (USD).
 - The most popular Data Science profession in `2020` and `2021` was `Data Scientist`, while the most popular Data Science profession in `2022` was `Data Engineer`.
 - The most popular Data Science job category in `2020` and `2021` was `Data Scientist`, while the most popular Data Science job category in `2022` was `Data Analyst`.
