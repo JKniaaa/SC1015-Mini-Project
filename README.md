@@ -75,7 +75,8 @@ We did the followig to clean our dataset:
    a. `job_category`: Descriptive labels indicating the general area of profession based on similarities in type of work. \
    b. `above_median`: Descriptive labels indicating if the salary_in_usd of individuals is above the median salary (USD).
 
-**Median value used to determine `above_median` is the median value <u>before</u> removal of outliers.**
+**Median value used to determine `above_median` is the median value <u> before </u> removal of outliers.**
+
 **Note: Outliers were not removed yet as the removal of outliers at this stage would cause inaccuracies during Exploratory Data Analysis.**
 
 ---
