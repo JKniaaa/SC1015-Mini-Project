@@ -16,6 +16,31 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
 
 **Dataset:** [Data Science Salaries](https://www.kaggle.com/datasets/zain280/data-science-salaries)
 
+### Dataset Variables:
+`id`: Numeric labels which document the number of respondents in numerical order depending on the submission of survey by respondent.
+
+`work_year`: Numeric labels indicating the year of work when data was collected from the respondent.
+
+`experience_level`: Information about the level of experience required or possessed by individuals in each role. This may include categories like entry-level, mid-level, senior-level, or years of experience in the field.
+
+`employment_type`: Information about the type of employment by the individual. This may include categories like full-time, part-time, contract and freelance.
+    
+`job_title`: Descriptive labels indicating the specific position or role within the data science field, such as Data Scientist, Data Analyst, Machine Learning Engineer, etc.
+
+`salary`: Numeric values representing the annual or monthly compensation for each position. 
+    
+`salary_currency`: Descriptive labels which indicate the currency of the `salary`.
+    
+`salary_in_usd`: Numeric values representing the `salary` in terms of United States Dollars (USD).
+    
+`employee_residence`: Geographic location where the individual resides, categorized by country.
+
+`remote_ratio`: Numeric labels which indicate the degree of remoteness of the workplace of individuals. 
+
+`company_location`: Geographic location where the job is based, categorized by country
+
+`company_size`: Information about the size of the employing company, often categorized by the number of employees or revenue.
+
 ---
 ### Problem Statements:
 **Main problem: Are Data Science professionals getting paid above the median salary?**
@@ -46,7 +71,9 @@ We did the followig to clean our dataset:
 1. **Check dataset for `NULL`, `NaN` and repeated values:** No such values were found.
 2. **Remove unnecessary data:** Columns `id`, `salary`, `salary_currency` and `employee_residence` were dropped for better presentation of data.
 3. **Rename values in data:** Values in columns `experience_level`, `employment_type`, `remote_ratio` and `company_size` were renamed for better understanding of data values.
-4. **Add new columns:** Columns `job_category` and `above_median` added for analysis and modelling purposes. `above_median` is the responding variable for data modelling.
+4. **Add new columns:** Columns `job_category` and `above_median` added for analysis and modelling purposes. `above_median` is the responding variable for data modelling. \
+   a. `job_category`: Descriptive labels indicating the general area of profession based on similarities in type of work. \
+   b. `above_median`: Descriptive labels indicating if the salary_in_usd of individuals is above the median salary (USD).
 
 **Note: Outliers were not removed yet as the removal of outliers at this stage would cause inaccuracies during Exploratory Data Analysis.**
 
