@@ -194,6 +194,7 @@ Models Attempted:
 **What We Learned from this Project:**
 - To visualise other useful and interesting insights from the dataset and make inferences from them.
 - Handling categorical variables using one-hot encoding for data modelling purposes.
+- Upsampling data to increase prediction accuracy of model.
 - Logistic Regression
 - Ways to observe and justify the more suitable model for modelling based on accuracy.
 
