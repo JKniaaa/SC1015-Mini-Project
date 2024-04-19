@@ -170,7 +170,7 @@ Models Attempted:
 
 **Conclusion:**
 - Binary Classification suggests that valid predictors can predict whether salary (USD) of respondent is above median​ salary (USD). However, the model is not highly accurate.
-- Random Forest 
+- Random Forest suggests that valid predictors are able to accurately predict if salary (USD) is above median salary (USD) and has the lowest false positive and false negative rate.
 - Logistic Regression suggests that while valid predictors are able to predict if salary (USD) is above median salary (USD) or not, it is not highly accurate. At the same time, this model has the highest false positive rate and false negative rate out of the 3 models. 
 
 - `Random Forest` model is the **more suitable model** to predict whether the salary (USD) of a Data Science Professional is `above median` salary (USD) based on `experience_level`, `remote_ratio` and `company_size` as the model has **higher accuracy**.
@@ -199,6 +199,8 @@ Models Attempted:
 1. [https://stackoverflow.com/questions/57165247/rename-column-values-using-pandas-dataframe](https://stackoverflow.com/questions/57165247/rename-column-values-using-pandas-dataframe)
 2. [https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/](https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/)
 3. [https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/](https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/)
+4. [https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall](https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall)
+5. [https://towardsdatascience.com/random-forest-in-python-24d0893d51c0](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0)
 
 
 
