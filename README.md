@@ -149,7 +149,20 @@ Models Attempted:
 
 **3. Logistic Regression:**
 
+    a. The dataset was split into Train and Test by ratio of 8:2.
 
+    b. After training, the code uses the trained model to make predictions on the testinf data using `predict()`.
+
+    c. Analysis of Train data:
+      - Accuracy: 73.66%
+      - False Positive Rate (FPR): 42.28%
+      - False Negative Rate (FNR): 53.75%
+
+    d. Analysis of Test data:
+      - Accuracy: 75.41%
+      - False Positive Rate (FPR): 44.83%
+      - False Negative Rate (FNR): 37.50%
+    
 
 
 ---
