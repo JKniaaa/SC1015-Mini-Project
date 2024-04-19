@@ -75,6 +75,7 @@ We did the followig to clean our dataset:
    a. `job_category`: Descriptive labels indicating the general area of profession based on similarities in type of work. \
    b. `above_median`: Descriptive labels indicating if the salary_in_usd of individuals is above the median salary (USD).
 
+**Median value used to determine `above_median` is the median value <u>before</u> removal of outliers.**
 **Note: Outliers were not removed yet as the removal of outliers at this stage would cause inaccuracies during Exploratory Data Analysis.**
 
 ---
@@ -170,8 +171,8 @@ Models Attempted:
 
 **Conclusion:**
 - Binary Classification suggests that valid predictors can predict whether salary (USD) of respondent is above median​ salary (USD). However, the model is not highly accurate.
-- Random Forest suggests that valid predictors are able to accurately predict if salary (USD) is above median salary (USD) and has the lowest false positive and false negative rate.
-- Logistic Regression suggests that while valid predictors are able to predict if salary (USD) is above median salary (USD) or not, it is not highly accurate. At the same time, this model has the highest false positive rate and false negative rate out of the 3 models. 
+- Random Forest suggests that valid predictors can predict if salary (USD) is above median salary (USD) with decent accuracy and has the lowest false positive and false negative rate.
+- Logistic Regression suggests that while valid predictors can predict whether salary (USD) is above median salary (USD), it is not highly accurate. At the same time, this model has the highest false positive rate and false negative rate out of the 3 models. 
 
 - `Random Forest` model is the **more suitable model** to predict whether the salary (USD) of a Data Science Professional is `above median` salary (USD) based on `experience_level`, `remote_ratio` and `company_size` as the model has **higher accuracy**.
 
