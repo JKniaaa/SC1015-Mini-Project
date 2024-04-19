@@ -72,8 +72,8 @@ We did the followig to clean our dataset:
 2. **Remove unnecessary data:** Columns `id`, `salary`, `salary_currency` and `employee_residence` were dropped for better presentation of data.
 3. **Rename values in data:** Values in columns `experience_level`, `employment_type`, `remote_ratio` and `company_size` were renamed for better understanding of data values.
 4. **Add new columns:** Columns `job_category` and `above_median` added for analysis and modelling purposes. `above_median` is the responding variable for data modelling. \
-   a. `job_category`: Descriptive labels indicating the general area of profession based on similarities in type of work. \
-   b. `above_median`: Descriptive labels indicating if the salary_in_usd of individuals is above the median salary (USD).
+   a. `job_category`: Descriptive labels indicating the general area of profession based on similarities in type of work for each `job_title`. \
+   b. `above_median`: Descriptive labels indicating if the `salary_in_usd` of individuals is above the median salary (USD).
 
 
 - **Note: Median value used** to determine `above_median` is the median value **before removal of outliers.**
