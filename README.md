@@ -203,6 +203,8 @@ Models Attempted:
 3. [https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/](https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/)
 4. [https://towardsdatascience.com/random-forest-in-python-24d0893d51c0](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0)
 5. [https://medium.com/@24littledino/accuracy-in-python-980074154e52](https://medium.com/@24littledino/accuracy-in-python-980074154e52)
+6. [https://www.w3schools.com/python/python_ml_logistic_regression.asp](https://www.w3schools.com/python/python_ml_logistic_regression.asp)
+7. [https://realpython.com/logistic-regression-python/](https://realpython.com/logistic-regression-python/)
 
 
 
