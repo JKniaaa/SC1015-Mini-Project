@@ -173,7 +173,7 @@ Models Attempted:
 ### 4. Data Driven Insights and Conclusion
 
 **Conclusion:**
-- Binary Classification suggests that valid predictors can predict whether salary (USD) of respondent is above median​ salary (USD). However, the model is not highly accurate.
+- Binary Classification suggests that valid predictors can predict whether salary (USD) of respondent is above median​ salary (USD). However, the model is not highly accurate and requires refining.
 - Random Forest suggests that valid predictors can predict if salary (USD) is above median salary (USD) with decent accuracy and has the lowest false positive and false negative rate.
 - Logistic Regression suggests that while valid predictors can predict whether salary (USD) is above median salary (USD), it is not highly accurate. At the same time, this model has the highest false positive rate and false negative rate out of the 3 models. 
 
