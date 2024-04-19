@@ -171,7 +171,7 @@ Models Attempted:
 **Conclusion:**
 - Binary Classification suggests that valid predictors can predict whether salary (USD) of respondent is above median​ salary (USD). However, the model is not highly accurate.
 - Random Forest 
-- Logistic Regression 
+- Logistic Regression suggests that while valid predictors are able to predict if salary (USD) is above median salary (USD) or not, it is not highly accurate. At the same time, this model has the highest false positive rate and false negative rate out of the 3 models. 
 
 - `Random Forest` model is the **more suitable model** to predict whether the salary (USD) of a Data Science Professional is `above median` salary (USD) based on `experience_level`, `remote_ratio` and `company_size` as the model has **higher accuracy**.
 
