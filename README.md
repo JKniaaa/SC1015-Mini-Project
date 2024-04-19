@@ -108,7 +108,7 @@ Models Attempted:
 
     a. The dataset was split into Train and Test by ratio of 7:3.
     
-    b. 500 decision trees with depth 2 (chosen via hyper-paramater tuning using Cross-Validation (CV), using accuracy as the scoring parameter)
+    b. 300 decision trees with depth 5 (chosen via hyper-paramater tuning using Cross-Validation (CV), using accuracy as the scoring parameter)
     
     c. Analysis of Train data:
       - Accuracy: 73.88%
