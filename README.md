@@ -8,7 +8,7 @@ Group : 1
 ### Group Members: 
 1. Goh Jun Keat ([@JKniaaa](https://github.com/JKniaaa))
 2. Celeste Ho Shir Chee ([@mommypokko](https://github.com/mommypokko))
-3. He QiXin ([@qhe012](https://github.com/qhe012))
+3. He Qixin ([@qhe012](https://github.com/qhe012))
 
 ---
 ### Project Description:
@@ -199,8 +199,8 @@ Models Attempted:
 1. [https://stackoverflow.com/questions/57165247/rename-column-values-using-pandas-dataframe](https://stackoverflow.com/questions/57165247/rename-column-values-using-pandas-dataframe)
 2. [https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/](https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/)
 3. [https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/](https://www.geeksforgeeks.org/how-to-customize-line-graph-in-jupyter-notebook/)
-4. [https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall](https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall)
-5. [https://towardsdatascience.com/random-forest-in-python-24d0893d51c0](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0)
+4. [https://towardsdatascience.com/random-forest-in-python-24d0893d51c0](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0)
+5. [https://medium.com/@24littledino/accuracy-in-python-980074154e52](https://medium.com/@24littledino/accuracy-in-python-980074154e52)
 
 
 
