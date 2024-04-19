@@ -64,7 +64,7 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
 5. [References](#5-References)
 
 ---
-### 1. Data Preperation and Cleaning
+### 1. Data Preparation and Cleaning
 We cleaned the dataset to help us analyse the data better during Exploratory Data Analysis and Data Modelling.
 
 We did the followig to clean our dataset:
