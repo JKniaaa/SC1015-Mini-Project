@@ -43,7 +43,7 @@ For our Introduction to Data Science and Artificial Intelligence module (SC1015)
 
 ---
 ### Problem Statements:
-**Main problem: Why are some Data Science professionals getting paid above the median salary?**
+**Main problem: Why are some Data Science professionals getting paid more than others?**
 
 *Potential Insights that can be obtained:*
 1. Distribution of salaries (USD) of Data Science professionals.
