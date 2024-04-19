@@ -1,4 +1,4 @@
-# SC1015-Mini-Project
+# SC1015 Mini-Project
 
 Nanyang Technological University (NTU) \
 School of Computer Science and Engineering \
