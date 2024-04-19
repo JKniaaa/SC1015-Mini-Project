@@ -106,6 +106,22 @@ Models Attempted:
 **2. Random Forest:**
 
 
+    a. The dataset was split into Train and Test by ratio of 7:3.
+    
+    b. Binary Tree model was created with max depth of 4.
+
+    c. Upsampling was done to increase accuracy of prediction.
+    
+    c. Analysis of Train data:
+      - Accuracy: 73.88%
+      - False Positive Rate (FPR): 22.60%
+      - False Negative Rate (FNR): 29.49%
+      
+    d. Analysis of Test data:
+      - Accuracy: 71.58%
+      - False Positive Rate (FPR): 26.04%
+      - False Negative Rate (FNR): 31.03%
+
 **3. Binary Classification:**
 
 
