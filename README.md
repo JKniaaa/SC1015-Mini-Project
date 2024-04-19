@@ -7,8 +7,8 @@ Group : 1
 
 ### Group Members: 
 1. Goh Jun Keat ([@JKniaaa](https://github.com/JKniaaa))
-2. Celeste Ho Shir Chee 
-3. He QiXin 
+2. Celeste Ho Shir Chee ([@mommypokko](https://github.com/mommypokko))
+3. He QiXin ([@qhe012](https://github.com/qhe012))
 
 ---
 ### Project Description:
