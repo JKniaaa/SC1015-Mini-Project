@@ -114,40 +114,40 @@ Models Attempted:
 
 **1. Binary Classification:**
 
-    a. The dataset was split into Train and Test by ratio of 7:3.
+    a. The dataset was split into Train and Test by ratio of 8:2.
     
     b. Binary Tree model was created with max depth of 4.
 
     c. Upsampling was done to increase accuracy of prediction.
     
     c. Analysis of Train data:
-      - Accuracy: 77.65%
-      - False Positive Rate (FPR): 14.69%
-      - False Negative Rate (FNR): 29.91%
+      - Accuracy: 77.78%
+      - False Positive Rate (FPR): 19.44%
+      - False Negative Rate (FNR): 25.21%
       
     d. Analysis of Test data:
-      - Accuracy: 73.77%
-      - False Positive Rate (FPR): 22.58%
-      - False Negative Rate (FNR): 30.00%
+      - Accuracy: 72.95%
+      - False Positive Rate (FPR): 21.15%
+      - False Negative Rate (FNR): 31.43%
 
 **2. Random Forest:**
 
 
-    a. The dataset was split into Train and Test by ratio of 7:3.
+    a. The dataset was split into Train and Test by ratio of 8:2.
     
     b. 300 decision trees with depth 5 (chosen via hyper-paramater tuning using Cross-Validation (CV), using accuracy as the scoring parameter)
     
     c. Analysis of Train data:
-      - Accuracy: 73.88%
-      - False Positive Rate (FPR): 22.60%
+      - Accuracy: 75.51%
+      - False Positive Rate (FPR): 19.84%
       - False Negative Rate (FNR): 29.49%
       
     d. Analysis of Test data:
-      - Accuracy: 71.58%
-      - False Positive Rate (FPR): 26.04%
-      - False Negative Rate (FNR): 31.03%
+      - Accuracy: 81.97%
+      - False Positive Rate (FPR): 17.31%
+      - False Negative Rate (FNR): 18.57%
 
-**3. Binary Classification:**
+**3. Logistic Regression:**
 
 
 
@@ -160,7 +160,7 @@ Models Attempted:
 - Random Forest 
 - Logistic Regression 
 
-**- XXX is the best model to predict whether salary (USD) of Data Science professionals are above the median salary (USD).​**
+- `Random Forest` model is the **more suitable model** to predict whether the salary (USD) of a Data Science Professional is `above median` salary (USD) based on `experience_level`, `remote_ratio` and `company_size` as the model has **higher accuracy**.
 
 
 **Data Driven Insights:**
@@ -177,7 +177,9 @@ Models Attempted:
 **What We Learned from this Project:**
 - To visualise other useful and interesting insights from the dataset and make inferences from them.
 - Handling categorical variables using one-hot encoding for data modelling purposes.
-- Ways to observe and justify the most suitable model for modelling based on accuracy.
+- Logistic Regression
+- Ways to observe and justify the more suitable model for modelling based on accuracy.
+
 
 ---
 ### 5. References
