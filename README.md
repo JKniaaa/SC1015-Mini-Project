@@ -89,11 +89,13 @@ We found the following for **EDA Part 1:**
 3. Used barplot to visualise The top 10 most popular data science related `company_location`. 
 4. Used barplot to visualise The trend of job opportunities by `work_year` in data science field. 
 
-**We now remove the outliers to balance the distribution of our dataset better. `10` rows of data were dropped from the dataset.**
+- **Outliers were removed to balance the distribution of our dataset better. `10` rows of data were dropped from the dataset.**
 
 For **EDA Part 2:**
-1. Used catplot to visualise distribution of `above_median`.
-2. Used line graph to visualise the trend of the average `salary_in_usd` by `work_year`. 
+1. Used catplot to visualise distribution of `above_median`. \
+    a.  **Median value used** to determine `above_median` is the median value **before removal of outliers.**
+2. Used line graph to visualise the trend of the average `salary_in_usd` by `work_year`. \
+    a. **Average salary (USD) used** is the average `salary_in_usd` value **after removal of outliers.**
 3. Visualised distribution of potential predictors for `above_median` in 2 steps: \
     a. Find the distribution of **potential predictors:** \
         &nbsp;&nbsp;&nbsp;&nbsp; i. Potential predictors are `company_location`, `job_title`, `job_category`, `experience_level`, `employment_type`, `remote_ratio` and `company size`. \
